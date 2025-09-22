@@ -1,0 +1,16 @@
+import React from 'react';
+import ButtonAdvanced from '../Buttons/ButtonAdvanced';
+import ButtonSecondary from '../Buttons/ButtonSecondary';
+import Top from './Top';
+import HeroMarquee from './HeroMarquee';
+
+const Hero = () => {
+  return (
+    <div className="bg-[url(/Hero/hero-bg.png)] bg-no-repeat bg-cover bg-center">
+      <Top />
+      <HeroMarquee />
+    </div>
+  );
+};
+
+export default Hero;
