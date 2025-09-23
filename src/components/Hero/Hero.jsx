@@ -1,6 +1,4 @@
 import React from 'react';
-import ButtonAdvanced from '../Buttons/ButtonAdvanced';
-import ButtonSecondary from '../Buttons/ButtonSecondary';
 import Top from './Top';
 import HeroMarquee from './HeroMarquee';
 

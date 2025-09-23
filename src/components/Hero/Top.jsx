@@ -1,6 +1,6 @@
 import React from 'react';
-import ButtonAdvanced from '../Buttons/ButtonAdvanced';
-import ButtonSecondary from '../Buttons/ButtonSecondary';
+import ButtonAdvanced from '../common/Buttons/ButtonAdvanced';
+import ButtonSecondary from '../common/Buttons/ButtonSecondary';
 
 const Top = () => {
   return (
