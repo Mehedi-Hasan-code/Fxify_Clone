@@ -42,7 +42,7 @@ const FaqSection = () => {
   };
 
   return (
-    <section className=" text-white py-16 px-4 md:px-8 lg:px-16">
+    <section className=" text-white py-20">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           {/* Left Side - Content */}

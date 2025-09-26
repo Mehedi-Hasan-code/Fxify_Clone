@@ -4,6 +4,8 @@ import AddOns from '../components/AddOns/AddOns';
 import Contact from '../components/Contact/Contact';
 import FaqSection from '../components/FAQ/FaqSection';
 import Benefits from '../components/Benefits/Benefits';
+import Company from '../components/Company/Company';
+import TrustPilot from '../components/TrustPilot/TrustPilot';
 
 const Home = () => {
   return (
@@ -11,6 +13,8 @@ const Home = () => {
       <Hero />
       <AddOns />
       <Benefits />
+      <Company />
+      <TrustPilot />
       <FaqSection />
       <Contact />
     </>

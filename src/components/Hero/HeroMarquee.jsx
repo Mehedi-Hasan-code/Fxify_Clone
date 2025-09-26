@@ -5,7 +5,7 @@ import Marquee from 'react-fast-marquee';
 const HeroMarquee = () => {
   return (
     <Marquee autoFill pauseOnHover style={{ display: 'flex', gap: '16px' }}>
-      <div className="flex gap-4">
+      <div className="flex gap-4 mt-[48px]">
         <div className="flex justify-center items-center gap-[6px] border rounded-[10px] px-4 py-2">
           <CircleCheck size={18} />
           <p>Up to $400,000 starting capital</p>

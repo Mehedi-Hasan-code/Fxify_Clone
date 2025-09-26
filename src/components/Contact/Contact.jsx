@@ -3,7 +3,7 @@ import SectionTitle from '../common/h,p,tags/SectionTitle';
 
 const Contact = () => {
   return (
-    <div className="max-w-[1440px] mx-auto w-11/12 flex flex-col lg:flex-row gap-6">
+    <div className="max-w-[1440px] mx-auto w-11/12 flex flex-col lg:flex-row gap-6 mb-20">
       {/* left - Newsletter Subscription */}
       <div className="flex-1 bg-[url(/Contact/subscribebg.svg)] bg-no-repeat bg-cover bg-center border border-[#ffffff0d] rounded-[10px] relative overflow-hidden">
         <div className="p-[48px] flex flex-col justify-center items-center gap-6 h-full min-h-[400px]">

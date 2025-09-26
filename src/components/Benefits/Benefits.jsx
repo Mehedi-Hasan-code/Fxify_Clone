@@ -47,7 +47,7 @@ const benefits = [
 
 const Benefits = () => {
   return (
-    <section className="max-w-[1440px] w-11/12 mx-auto py-20 md:py-24">
+    <section className="max-w-[1440px] w-11/12 mx-auto">
       {/* Heading */}
       <div className="text-center mb-8 md:mb-14">
         <p className="text-[12px] tracking-[0.2em] text-white/60 mb-3">
@@ -61,26 +61,30 @@ const Benefits = () => {
           and tailored programs built to elevate your trading performance.
         </p>
       </div>
-
       {/* Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {benefits.map((item) => (
           <div
             key={item.id}
-            className="rounded-2xl border border-[#1daa9126] bg-[linear-gradient(180deg,rgba(255,255,255,0.02)_0%,rgba(29,170,145,0.05)_100%)] overflow-hidden hover:border-[#1DAA91]/40 transition-colors"
+            className="border border-[#1daa9126] bg-[linear-gradient(180deg,rgba(255,255,255,0.02)_0%,rgba(29,170,145,0.05)_100%)] overflow-hidden hover:border-[#1DAA91]/40 transition-colors rounded-[10px] relative flex flex-col h-full"
           >
-            <div className="aspect-[16/9] w-full bg-[#0c1117]">
+            {/* image */}
+            <div className="grow w-full">
               <img
                 src={item.image}
                 alt={item.title}
-                className="w-full h-full object-cover"
+                className="absolute top-0 left-0 w-full"
                 loading="lazy"
               />
             </div>
-            <div className="p-5 md:p-6">
-              <h3 className="text-[16px] md:text-[18px] font-semibold text-white mb-2">
+            {/* title */}
+            <div className="mt-35 pl-4">
+              <h3 className="text-[16px] md:text-[18px] font-semibold text-white">
                 {item.title}
               </h3>
+            </div>
+            {/* text */}
+            <div className="px-4 pb-4">
               <p className="text-white/60 text-sm md:text-[15px] leading-[1.6]">
                 {item.description}
               </p>
